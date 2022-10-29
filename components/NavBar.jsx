@@ -12,7 +12,7 @@ export default function NavBar() {
     ) {
       enableWeb3();
     }
-  }, []);
+  }, [isWeb3Enabled]);
 
   const disconnect = async () => {
     window.localStorage.removeItem("connected");

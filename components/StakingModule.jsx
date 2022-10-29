@@ -49,14 +49,14 @@ export default function StakingModule() {
     if (isWeb3Enabled) {
       farmTokenBalance();
     }
-  }, []);
+  }, [isWeb3Enabled]);
 
   return (
     <div className="grid grid-cols-2 gap-4 p-4">
       <div className="bg-orange-400 rounded-xl h-80">
         <div className="text-center text-2xl font-bold mt-4 font">Stake</div>
         <div className="text-center my-4 font-bold">
-          Earn FARM tokens by locking ETH!
+          Earn FARM tokens by locking ETH
         </div>
         <div className="flex flex-row ml-2 mt-4">
           <div className="basis-1/3 flex flex-row">

@@ -2654,7 +2654,7 @@
   "resolved" "https://registry.npmjs.org/minimist/-/minimist-1.2.7.tgz"
   "version" "1.2.7"
 
-"moralis-v1@>=1.11.0":
+"moralis-v1@^1.11.0", "moralis-v1@>=1.11.0":
   "integrity" "sha512-6FxKTdh1kOLme+R5Z6kIT++MHwZzTrYGhiS/E7hRnapomY423RThrxsnYgs7XnLEe8g2TLvA4Sx0+DIgwYWTjg=="
   "resolved" "https://registry.npmjs.org/moralis-v1/-/moralis-v1-1.11.0.tgz"
   "version" "1.11.0"
